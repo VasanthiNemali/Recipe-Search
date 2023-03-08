@@ -1,0 +1,25 @@
+.header-icon {
+  font-size: large;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.header-option {
+  font-weight: bold;
+  color: rgb(43, 45, 48);
+}
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.search-input {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.search-input::placeholder {
+  font-style: italic;
+  color: rgb(224, 118, 19);
+}
